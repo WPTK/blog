@@ -6,7 +6,7 @@
   --rule: #d3dae6;
   --link: #2d5bff;
   --link-hover: #1f45d6;
-  --serif: "Literata", Georgia, "Times New Roman", serif;
+  --serif: "Newsreader", Georgia, "Times New Roman", serif;
   --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 }
 *, *::before, *::after { box-sizing: border-box; }
@@ -16,7 +16,7 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--serif);
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.7;
 }
 a { color: var(--link); text-decoration: none; }
@@ -59,7 +59,7 @@ pre code { background: none; padding: 0; }
 .site-footer a { color: var(--muted); text-decoration: underline; }
 
 @media (max-width: 520px) {
-  body { font-size: 17px; }
+  body { font-size: 19px; }
   h1 { font-size: 1.8rem; margin-top: 40px; }
   .post-list li { flex-direction: column; gap: 0; padding: 8px 0; }
   .post-list time { flex: none; }

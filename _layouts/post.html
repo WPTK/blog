@@ -1,24 +1,11 @@
 ---
 layout: default
 ---
-<article class="post">
-  <div class="back-link"><a href="{{ '/' | relative_url }}">&larr; All posts</a></div>
+<article class="col">
+  <p class="back-link"><a href="{{ '/' | relative_url }}">&larr; All posts</a></p>
 
-  <header class="post-header">
-    <h1>
-      {%- if page.accent -%}
-        {%- capture wrapped %}<span class="accent">{{ page.accent }}</span>{% endcapture -%}
-        {{- page.title | escape | replace: page.accent, wrapped -}}
-      {%- else -%}
-        {{- page.title | escape -}}
-      {%- endif -%}
-    </h1>
-    <p class="meta post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
-      <span class="meta-sep">/</span>
-      <span>{{ content | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
-    </p>
-  </header>
+  <h1>{{ page.title | escape }}</h1>
+  <h3 class="post-meta"><em><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> &middot; {{ content | number_of_words | divided_by: 200 | plus: 1 }} min read</em></h3>
 
   <div class="prose">
 {{ content }}
@@ -26,7 +13,7 @@ layout: default
 
   {%- if page.tags and page.tags.size > 0 %}
   <p class="post-tags">
-    {%- for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+    {%- for tag in page.tags %}<span class="mono">{{ tag }}</span>{% endfor %}
   </p>
   {%- endif %}
 

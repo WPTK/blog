@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- assign desc = page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 %}
-  {%- if page.title %}
-  {%- assign full_title = page.title | append: " — WPTK" %}
-  {%- else %}
+  {%- if page.layout == 'home' %}
   {%- assign full_title = "Blog — WPTK" %}
+  {%- else %}
+  {%- assign full_title = page.title | append: " — WPTK" %}
   {%- endif %}
   <title>{{ full_title | escape }}</title>
   <meta name="description" content="{{ desc | escape }}">
@@ -15,38 +15,81 @@
   <meta property="og:description" content="{{ desc | escape }}">
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta name="theme-color" content="#0e0e0e">
+  <meta name="theme-color" content="#0b1220">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   {% feed_meta %}
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <script>
+    (function () {
+      try { if (localStorage.getItem("wptk-theme") === "light") document.documentElement.setAttribute("data-theme", "light"); } catch (e) {}
+      document.documentElement.classList.add("js");
+    })();
+  </script>
   <style>
 {% include style.css %}
   </style>
 </head>
-<body>
-  <header class="site-header">
-    <div class="header-inner">
-      <a href="{{ '/' | relative_url }}" class="site-logo">WPTK</a>
-      <nav class="site-nav" aria-label="Main">
-        <a href="{{ '/' | relative_url }}"{% if page.url == '/' or page.layout == 'post' %} class="active"{% endif %}>Blog</a>
-        <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} class="active"{% endif %}>About</a>
+<body class="wptk">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <nav class="wptk-nav" aria-label="Primary">
+    <div class="wptk-nav__inner">
+      <a class="wptk-nav__back" href="https://wptk.org" aria-label="Back to WPTK index">
+        <svg class="wptk-nav__back-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="19" y1="12" x2="5" y2="12"></line>
+          <polyline points="11 18 5 12 11 6"></polyline>
+        </svg>
+        <span>WPTK</span>
+      </a>
+      <span class="wptk-nav__sep" aria-hidden="true">/</span>
+      {%- if page.url == '/about/' %}
+      <span class="wptk-nav__here" aria-current="page">About</span>
+      {%- elsif page.layout == 'home' %}
+      <span class="wptk-nav__here" aria-current="page">Blog</span>
+      {%- else %}
+      <a class="wptk-nav__here" href="{{ '/' | relative_url }}">Blog</a>
+      {%- endif %}
+
+      <span class="wptk-nav__spacer"></span>
+
+      <div class="wptk-nav__menu">
+        <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
         <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
-        <a href="https://wptk.org">wptk.org</a>
-      </nav>
-    </div>
-  </header>
+      </div>
 
-  <main class="container">
+      <button class="wptk-theme-toggle" type="button" aria-label="Toggle color scheme" aria-pressed="false">
+        <span class="wptk-theme-toggle__track" aria-hidden="true"><span class="wptk-theme-toggle__thumb" aria-hidden="true"></span></span>
+        <span class="wptk-theme-toggle__text">Dark</span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="wptk-container">
+    <main class="surface{% unless page.layout == 'home' %} surface--reading{% endunless %}" id="main">
 {{ content }}
-  </main>
+      <footer>
+        <p>&copy; {{ site.time | date: "%Y" }} Bill Kane &middot; <a href="https://wptk.org">wptk.org</a></p>
+      </footer>
+    </main>
+  </div>
 
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <span class="footer-brand">WPTK</span>
-      <span class="footer-meta">Broadcasting from Kingsland, Georgia · &copy; {{ site.time | date: "%Y" }} · <a href="https://wptk.org">wptk.org</a></span>
-    </div>
-  </footer>
+  <script>
+    (function () {
+      var btn = document.querySelector(".wptk-theme-toggle");
+      if (!btn) return;
+      var root = document.documentElement;
+      function sync() {
+        var light = root.getAttribute("data-theme") === "light";
+        btn.setAttribute("aria-pressed", String(light));
+        btn.querySelector(".wptk-theme-toggle__text").textContent = light ? "Light" : "Dark";
+      }
+      btn.addEventListener("click", function () {
+        var next = root.getAttribute("data-theme") === "light" ? "dark" : "light";
+        if (next === "light") root.setAttribute("data-theme", "light"); else root.removeAttribute("data-theme");
+        try { localStorage.setItem("wptk-theme", next); } catch (e) {}
+        sync();
+      });
+      sync();
+    })();
+  </script>
 </body>
 </html>

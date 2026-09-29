@@ -1,34 +1,14 @@
 ---
 layout: default
 ---
-<article class="col">
-  <p class="back-link"><a href="{{ '/' | relative_url }}">&larr; All posts</a></p>
-
+<article>
   <h1>{{ page.title | escape }}</h1>
-  <h3 class="post-meta"><em><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> &middot; {{ content | number_of_words | divided_by: 200 | plus: 1 }} min read</em></h3>
-
+  <p class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
   <div class="prose">
 {{ content }}
   </div>
-
-  {%- if page.tags and page.tags.size > 0 %}
-  <p class="post-tags">
-    {%- for tag in page.tags %}<span class="mono">{{ tag }}</span>{% endfor %}
-  </p>
-  {%- endif %}
-
-  <nav class="post-nav" aria-label="Other posts">
-    {%- if page.previous %}
-    <a class="post-nav-link" href="{{ page.previous.url | relative_url }}">
-      <span class="post-nav-label">Older</span>
-      <span class="post-nav-title">{{ page.previous.title | escape }}</span>
-    </a>
-    {%- else %}<span></span>{% endif %}
-    {%- if page.next %}
-    <a class="post-nav-link post-nav-link--next" href="{{ page.next.url | relative_url }}">
-      <span class="post-nav-label">Newer</span>
-      <span class="post-nav-title">{{ page.next.title | escape }}</span>
-    </a>
-    {%- endif %}
-  </nav>
+  <div class="post-foot">
+    <span>{% if page.tags and page.tags.size > 0 %}Tagged {{ page.tags | join: ", " }}{% endif %}</span>
+    <a href="{{ '/' | relative_url }}">&larr; All posts</a>
+  </div>
 </article>

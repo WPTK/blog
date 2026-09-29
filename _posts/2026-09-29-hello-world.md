@@ -8,5 +8,5 @@ First post. To publish a new one, add a file to `_posts/` named `YYYY-MM-DD-titl
 
 Optional front matter:
 
-- `description`: one line shown under the title on the home page
+- `description`: used for the page summary in search results and link previews
 - `tags`: a list, shown at the bottom of the post

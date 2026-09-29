@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {%- assign desc = page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 %}
+  {%- if page.title %}
+  {%- assign full_title = page.title | append: " — WPTK" %}
+  {%- else %}
+  {%- assign full_title = "Blog — WPTK" %}
+  {%- endif %}
+  <title>{{ full_title | escape }}</title>
+  <meta name="description" content="{{ desc | escape }}">
+  <meta property="og:title" content="{{ full_title | escape }}">
+  <meta property="og:description" content="{{ desc | escape }}">
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta name="theme-color" content="#0e0e0e">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {% feed_meta %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+{% include style.css %}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="{{ '/' | relative_url }}" class="site-logo">WPTK</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="{{ '/' | relative_url }}"{% if page.url == '/' or page.layout == 'post' %} class="active"{% endif %}>Blog</a>
+        <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} class="active"{% endif %}>About</a>
+        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+        <a href="https://wptk.org">wptk.org</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+{{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-brand">WPTK</span>
+      <span class="footer-meta">Broadcasting from Kingsland, Georgia · &copy; {{ site.time | date: "%Y" }} · <a href="https://wptk.org">wptk.org</a></span>
+    </div>
+  </footer>
+</body>
+</html>

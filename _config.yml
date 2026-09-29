@@ -1,0 +1,37 @@
+title: WPTK Blog
+description: Writing from Kingsland, Georgia, by Bill Kane.
+url: "https://blog.wptk.org"
+baseurl: ""
+timezone: America/New_York
+
+permalink: /:year/:month/:title/
+
+theme: null
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- assign desc = page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 %}
   {%- if page.layout == 'home' %}
-  {%- assign full_title = "Blog — WPTK" %}
+  {%- assign full_title = site.title %}
   {%- else %}
-  {%- assign full_title = page.title | append: " — WPTK" %}
+  {%- assign full_title = page.title | append: " — " | append: site.title %}
   {%- endif %}
   <title>{{ full_title | escape }}</title>
   <meta name="description" content="{{ desc | escape }}">
@@ -30,7 +30,7 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <div class="wrap">
     <header class="site-header">
-      <a class="site-title" href="{{ '/' | relative_url }}">WPTK blog</a>
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <nav class="site-nav" aria-label="Primary">
         <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
         <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
@@ -41,7 +41,7 @@
 {{ content }}
     </main>
     <footer class="site-footer">
-      <p>&copy; {{ site.time | date: "%Y" }} Bill Kane &middot; <a href="https://wptk.org">wptk.org</a></p>
+      <p>&copy; {{ site.time | date: "%Y" }}</p>
     </footer>
   </div>
 </body>

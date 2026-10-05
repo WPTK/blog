@@ -8,7 +8,7 @@ tags:
   - selfhosted
   - vibecoding
   - replit
-published: false
+published: true
 ---
 ## A boy and his (vibe)code
 

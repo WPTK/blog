@@ -6,4 +6,4 @@ New post: add `_posts/YYYY-MM-DD-title.md` with front matter (`title`, `date`), 
 
 - Layouts: `_layouts/`
 - All CSS: `_includes/style.css`, inlined into every page
-- Font: Newsreader via Google Fonts, Georgia fallback
+- Font: Newsreader (self-hosted in `fonts/`, SIL OFL), Georgia fallback

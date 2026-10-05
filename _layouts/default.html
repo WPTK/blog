@@ -24,9 +24,7 @@
   <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   {% feed_meta %}
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="preload" href="{{ '/fonts/Newsreader-latin-wght-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
   <style>
 {% include style.css %}
   </style>

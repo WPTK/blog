@@ -24,7 +24,7 @@ Well, despite real efforts to put thought into the prompts and reviewing the pla
 
 It took roughly 2-3 days of me committing a bit of time here and there to get something that made this: 
 
-[](https://github.com/WPTK/blog/blob/02ae52cd5a1754ecd1418cc37ebab921f94affe9/images/image.png) 
+![Replit traffic camera app](/images/image.png)
 
 *It ain't great. Take special note that while this app was "finished", I still couldn't get the cameras to actually load/appear. This was...kind of the point of the app. I dutifully handed Replit $25 so they could turn out the same product I could've. Remember, I don't code.*
 

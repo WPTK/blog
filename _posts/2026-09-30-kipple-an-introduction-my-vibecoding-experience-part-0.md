@@ -14,7 +14,7 @@ published: false
 
 I am a tinkerer (and historically not very good at it). I have an old Supermicro 24-bay server running in my closet in my office. I run/ran all kinds of random stuff, like [bentopdf](https://github.com/alam00000/bentopdf), [changedetection](https://github.com/dgtlmoon/changedetection.io), and the [skystats database for my ADS-B receiver](https://github.com/tomcarman/skystats).
 
-When [vibecoding ](https://en.wikipedia.org/wiki/Vibe_coding)dropped, I was all over it. I signed up for Replit, and then wondered how I wound up as a person with *two* AI subscriptions.
+When [vibecoding](https://en.wikipedia.org/wiki/Vibe_coding) dropped, I was all over it. I signed up for Replit, and then wondered how I wound up as a person with *two* AI subscriptions.
 
 ## Replit + Traffic Cameras
 
@@ -23,7 +23,7 @@ But what would I build? I am not exactly an idea man. I had recently received ap
 Well, despite real efforts to put thought into the prompts and reviewing the plans, it basically created a heaping pile of slop. There were so many tokens burned just trying to get the app to load, as the error messages gave clear codes and file paths. Replit chugged away, throwing band-aid after terrible band-aid at the slopstorm. There was confusion (for both me and Replit) throughout.
 
 It took roughly 2-3 days of me committing a bit of time here and there to get something that made this: 
-![](C:/Users/BK/AppData/Roaming/marktext/images/2026-10-05-13-38-34-image.png) 
+![](https://github.com/WPTK/blog/blob/02ae52cd5a1754ecd1418cc37ebab921f94affe9/images/image.png) 
 
 *It ain't great. Take special note that while this app was "finished", I still couldn't get the cameras to actually load/appear. This was...kind of the point of the app. I dutifully handed Replit $$25$ so they could turn out the same product I could've. Remember, I don't code.*
 

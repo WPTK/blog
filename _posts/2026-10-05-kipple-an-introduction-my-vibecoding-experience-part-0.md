@@ -40,7 +40,7 @@ So for this portion of the article, I fed the code from Replit (from roughly Apr
 
 ##### The prompt:
 
-`Please review the code, point out obvious or blatant errors, poor/sloppy code, or anything you would consider to be junk or poor-quality work. Provide me a succint response at the end with overall issues (and counts of issues if there are too many to list)`
+`Please review the code, point out obvious or blatant errors, poor/sloppy code, or anything you would consider to be junk or poor-quality work. Provide me a succinct response at the end with overall issues (and counts of issues if there are too many to list)`
 
 ##### Claude (Sonnet 5.5 - Medium) said:
 

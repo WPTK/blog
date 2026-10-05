@@ -1,7 +1,8 @@
 ---
-title: "Kipple: An Introduction My Vibecoding Experience (Part 0)"
+title: "Adventures in Vibecoding: Pre-History (Part 1: Replit + Traffic Cams)"
 date: 2026-09-30
-description: "# I am a tinkerer (and historically, not very good at it). I have
-  an old Supermicro 24-bay server running in my closest in my office"
+tags:
+  - kipple
+  - selfhosted
 published: false
 ---

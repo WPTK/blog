@@ -40,12 +40,12 @@ a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
 
 .wrap { max-width: 720px; margin: 0 auto; padding: 40px 20px 64px; }
 
-.site-header { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; font-size: 15px; }
-.site-title { font-weight: 700; font-size: 17px; color: var(--text); letter-spacing: -0.01em; }
-.site-title:hover { color: var(--text); text-decoration: none; }
-.site-nav { display: flex; gap: 20px; }
-.site-nav a[aria-current="page"] { color: var(--text); }
-.site-nav .out { color: var(--muted); }
+.masthead { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; font-size: 15px; }
+.masthead-name { font-weight: 700; font-size: 17px; color: var(--text); letter-spacing: -0.01em; }
+.masthead-name:hover { color: var(--text); text-decoration: none; }
+.masthead-links { display: flex; gap: 20px; }
+.masthead-links a[aria-current="page"] { color: var(--text); }
+.masthead-links .out { color: var(--muted); }
 
 h1 { font-size: 2.1rem; line-height: 1.15; letter-spacing: -0.02em; font-weight: 700; margin: 56px 0 8px; }
 .meta { color: var(--muted); font-size: 0.85rem; margin: 0 0 32px; font-variant-numeric: lining-nums tabular-nums; }
@@ -71,8 +71,8 @@ pre code { background: none; padding: 0; }
 .tag-group h2 { font-size: 1.25rem; margin: 40px 0 0; scroll-margin-top: 24px; }
 .tag-group:target h2 { text-decoration: underline; text-decoration-color: var(--link); text-underline-offset: 4px; }
 
-.site-footer { margin-top: 72px; font-size: 0.8rem; color: var(--muted); }
-.site-footer a { color: var(--muted); text-decoration: underline; }
+.colophon { margin-top: 72px; font-size: 0.8rem; color: var(--muted); }
+.colophon a { color: var(--muted); text-decoration: underline; }
 
 @media (max-width: 520px) {
   body { font-size: 19px; }

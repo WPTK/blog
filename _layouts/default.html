@@ -36,6 +36,7 @@
       <a class="masthead-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <nav class="masthead-links" aria-label="Primary">
         <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+        <a href="{{ '/tags/' | relative_url }}"{% if page.url contains '/tags/' %} aria-current="page"{% endif %}>Tags</a>
         <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
         <a class="out" href="https://wptk.org">wptk.org &#8599;</a>
       </nav>

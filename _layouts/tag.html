@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h1>Tagged: {{ page.tag | escape }}</h1>
+<p><a href="{{ '/tags/' | relative_url }}">&larr; All tags</a> &middot; {{ page.posts.size }} post{% if page.posts.size != 1 %}s{% endif %}</p>
+<ul class="post-list">
+  {%- for post in page.posts %}
+  <li>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+    <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+  </li>
+  {%- endfor %}
+</ul>

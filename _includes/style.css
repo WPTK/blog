@@ -68,6 +68,10 @@ pre code { background: none; padding: 0; }
 
 .post-foot { margin-top: 36px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 0.85rem; color: var(--muted); display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
 
+.tag-index { list-style: none; padding: 0; margin: 24px 0; }
+.tag-index li { padding: 6px 0; }
+.tag-index a { font-size: 1.1rem; font-weight: 600; }
+.tag-count { color: var(--muted); font-size: 0.85rem; margin-left: 6px; font-variant-numeric: lining-nums tabular-nums; }
 .tag-group h2 { font-size: 1.25rem; margin: 40px 0 0; scroll-margin-top: 24px; }
 .tag-group:target h2 { text-decoration: underline; text-decoration-color: var(--link); text-underline-offset: 4px; }
 

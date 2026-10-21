@@ -19,7 +19,7 @@ Fast forward:
 - Replit made a bunch of junk code that didn't work
 - GitHub Pro/ChatGPT/Whatever else I tried didn't do much better—it just threw more junk on top of junk. Big [GIGO]([https://languagelog.ldc.upenn.edu/nll/?p=73154](https://languagelog.ldc.upenn.edu/nll/?p=73154)) vibes.
 
- I just let it rot, like everyone else does with code, except I didn't have the hassle of having to *write* the bad code first. 
+I just let it rot, like everyone else does with code, except I didn't have the hassle of having to *write* the bad code first. 
 
 I love having my own news feed. 
 

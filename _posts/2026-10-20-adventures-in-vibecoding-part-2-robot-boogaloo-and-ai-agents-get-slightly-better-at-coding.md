@@ -16,11 +16,10 @@ published: true
 ---
 Fast forward:
 
-* Replit made a bunch of junk code that didn't work
+- Replit made a bunch of junk code that didn't work
+- GitHub Pro/ChatGPT/Whatever else I tried didn't do much better—it just threw more junk on top of junk. Big [GIGO]([https://languagelog.ldc.upenn.edu/nll/?p=73154](https://languagelog.ldc.upenn.edu/nll/?p=73154)) vibes.
 
-* GitHub Pro/ChatGPT/Whatever else I tried didn't do much better—it just threw more junk on top of junk. Big [GIGO]([https://languagelog.ldc.upenn.edu/nll/?p=73154](https://languagelog.ldc.upenn.edu/nll/?p=73154)) vibes. 
-
- *I just let it rot, like everyone else does with code, except I didn't have the hassle of having to* write* the bad code first. 
+ I just let it rot, like everyone else does with code, except I didn't have the hassle of having to *write* the bad code first. 
 
 I love having my own news feed. 
 
@@ -32,17 +31,14 @@ I tolerate(d) Feedly.
 
 One day, in my favorite Discord server, I was complaining about how RSS readers are either: 
 
-* So full of shit you don't need:
-
-    * Why do I need AI intelligence reports daily?
-
-    * Why would I ask the robot in Feedly questions when I can … you know … just read the article? 
-
-    * Why do I need a premium subscription?
+- So full of shit you don't need:
+  - Why do I need AI intelligence reports daily?
+  - Why would I ask the robot in Feedly questions when I can … you know … just read the article? 
+  - Why do I need a premium subscription?
 
 or
 
-* Barebones (such as great-for-other-people-but-not-me [FreshRSS]([https://www.freshrss.org/](https://www.freshrss.org/)) and [Miniflux]([https://miniflux.app/](https://miniflux.app/))). Oh yeah, and [yarr]([https://github.com/nkanaev/yarr](https://github.com/nkanaev/yarr))
+- Barebones (such as great-for-other-people-but-not-me [FreshRSS]([https://www.freshrss.org/](https://www.freshrss.org/)) and [Miniflux]([https://miniflux.app/](https://miniflux.app/))). Oh yeah, and [yarr]([https://github.com/nkanaev/yarr](https://github.com/nkanaev/yarr))
 
 I still wanted *some* features. Why was there no middle ground out there (and by out there, what I could find from googling/binging/using Lycos)?
 

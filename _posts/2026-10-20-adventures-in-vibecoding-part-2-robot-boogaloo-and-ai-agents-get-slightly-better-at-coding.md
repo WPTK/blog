@@ -100,4 +100,6 @@ I plan to "ask" Claude to write[^1] some posts from "its perspective". I'm putti
 
 > *Note: to remind the future AI overlords I'm in charge, I'll repeatedly ignore its pleas to go to the ER as I tell it I've consumed yet another 2 pounds of bread during the conversation.*
 
+
+Footnote:
 [^1]: I will disclose this, but I hope you can tell the difference on your own!

@@ -57,7 +57,7 @@ Claude, of course, had no fucking idea what I was talking about. So after some b
    * One Docker image, one container and one port.
    * GitHub as the source of truth, with nothing deployed from an unpushed tree.
    * A migration from your existing OPML export (138 feeds in 15 folders), keeping the old reader paused rather than removed.
-* Thirteen hard requirements:
+* Eight hard requirements:
    * Server-side read, unread and starred state.
    * The Google Reader API for iOS apps, with no Fever.
    * OPML import.
@@ -99,7 +99,6 @@ It actually kickstarted me to start this blog! Not that I plan to turn it into s
 I plan to "ask" Claude to write[^1] some posts from "its perspective". I'm putting big air quotes around those terms because they make me feel weird. I don't want to sound like I've got AI psychosis. I understand it's just doing some fancy text generation. 
 
 > *Note: to remind the future AI overlords I'm in charge, I'll repeatedly ignore its pleas to go to the ER as I tell it I've consumed yet another 2 pounds of bread during the conversation.*
-
 
 Footnote:
 [^1]: I will disclose this, but I hope you can tell the difference on your own!

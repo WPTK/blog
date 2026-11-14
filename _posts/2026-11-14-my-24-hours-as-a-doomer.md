@@ -46,7 +46,7 @@ I took that advice, tossed whatever I couldn't confirm on the original page, and
 - The head of the *AI 2027* group sits on the three-person board of Lightcone, the nonprofit that runs both LessWrong (the scene's home forum) and the Berkeley campus where the scene holds its events.[^7]
 - Holden Karnofsky wears most of the hats in this story. He advised METR's team early on, co-founded one of the scene's major funders, joined Anthropic in 2025, is married to one of its founders and used to room with its CEO.[^8]
 
-If you're keeping score, that's two former roommates of Anthropic's CEO in one list. In fairness to everyone on it, I got all of this from Wikipedia and their own websites, which is about as far as my investigative skills go without having to pay some shady site in Monero. On the way to preschool I'd pictured a bunch of separate experts all arriving at the same scary number, and what I found was... one big friend group <sub>*(OBFG for my Hyperfixed Discord Gang)*</sub>
+If you're keeping score, that's two former roommates of Anthropic's CEO in one list. In fairness to everyone on it, I got all of this from Wikipedia and their own websites, which is about as far as my investigative skills go without having to pay some shady site in Monero. On the way to preschool I'd pictured a bunch of separate experts all arriving at the same scary number, and what I found was... one big friend group *(OBFG for my Hyperfixed Discord Gang)*
 
 ### And then there's the fanfic
 
@@ -56,7 +56,7 @@ LessWrong was started in 2009 by Eliezer Yudkowsky, who also founded the scene's
 
 This whole thing is like if the first people concerned about nuclear annihilation had been Scientologists.[^11] They could have been completely right about the bomb, and you'd still want a second opinion from somebody who doesn't go to the same meetings.
 
-<sub>Special callout to [my friend](https://bsky.app/profile/masbackward.bsky.social) for the Scientologists quote!</sub>
+Special callout to [my friend](https://bsky.app/profile/masbackward.bsky.social) for the Scientologists quote!
 
 ### The boring kind of cult stuff
 

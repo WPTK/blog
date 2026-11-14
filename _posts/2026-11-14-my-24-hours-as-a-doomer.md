@@ -23,7 +23,7 @@ The segment was about a new report from METR, a nonprofit that got 11 weeks of a
 - Most of that speedup (maybe 80%) comes from the robot doing its own R&D.
 - No one is referencing Skynet (at this point, I guess it's played out?)
 
-Then the hosts read out how the people who forecast this stuff for a living were taking it:[^3]
+Then one of the hosts read out how the people who forecast this stuff for a living were taking it:[^3]
 
 - The group behind *AI 2027* now expects a superhuman AI researcher sometime next year (so the name still works).
 - The head of another research group put it at maybe 20% that within a year you can't go about your normal life "because you are dead or enslaved."
@@ -46,12 +46,12 @@ I took that advice, tossed whatever I couldn't confirm on the original page, and
 
 ### The more I clicked, the fewer people there were
 
-- METR, the group that wrote the report, started out as a team inside Paul Christiano's Alignment Research Center and spun off in 2023.[^5] Christiano is the voice in a clip the show played, telling a room full of people that an AI accident is the most likely thing to kill most of them. The hosts introduced him as a friend and former housemate of Anthropic's CEO.
+- METR, the group that wrote the report, started out as a team inside Paul Christiano's Alignment Research Center and spun off in 2023.[^5] Christiano is the voice in a clip the show played, telling a room full of people that an AI accident is the most likely thing to kill most of them. One of the hosts introduced him as a friend and former housemate of Dario Amodei, who runs Anthropic.
 - One of METR's many backers is a fund bankrolled mostly by Jaan Tallinn, who helped write Skype and Kazaa (yes, that Kazaa). The same fund has backed the *AI 2027* group and the "dead or enslaved" guy's group, and Tallinn led Anthropic's first big funding round in 2021.[^6]
 - The head of the *AI 2027* group sits on the three-person board of Lightcone, the nonprofit that runs both LessWrong (the scene's home forum) and the Berkeley campus where the scene holds its events.[^7]
 - Holden Karnofsky wears most of the hats in this story. He advised METR's team early on, co-founded one of the scene's major funders, joined Anthropic in 2025, is married to one of its founders and used to room with its CEO.[^8]
 
-If you're keeping score, that's two former roommates of Anthropic's CEO in one list. In fairness to everyone on it, I got all of this from Wikipedia and their own websites, which is about as far as my investigative skills go without having to pay some shady site in Monero. On the way to preschool I'd pictured a bunch of separate experts all arriving at the same scary number, and what I found was... one big friend group <sub>*(OBFG for my Hyperfixed Discord Gang)*</sub>
+If you're keeping score, that's two people on one list who used to live with Anthropic's CEO. In fairness to everyone on it, everything that wasn't on the show came from Wikipedia and their own websites and interviews, which is about as far as my investigative skills go without having to pay some shady site in Monero. On the way to preschool I'd pictured a bunch of separate experts all arriving at the same scary number, and what I found was... one big friend group <sub>*(OBFG for my Hyperfixed Discord Gang)*</sub>
 
 ### And then there's the fanfic
 
@@ -78,7 +78,7 @@ Yudkowsky tells a story on himself about this. Somebody once asked why he wasn't
 
 ### Follow the money (it's a short walk)
 
-METR says no fees were paid in either direction, and I believe them,[^15] mostly because nobody would need to be paid. Everybody in this story does better when the number is scary. It reminds of [George Carlin's quote about conspiracies](https://www.youtube.com/watch?v=VAFd4FdbJxs): They don't *need* meetings, they have the same objectives. 
+METR says no fees were paid in either direction, and I believe them,[^15] mostly because nobody would need to be paid. Everybody in this story does better when the number is scary. It reminds me of [George Carlin's quote about conspiracies](https://www.youtube.com/watch?v=VAFd4FdbJxs): They don't *need* meetings, they have the same objectives. 
 
 - The nonprofits live on donations, and nobody writes a check to the Institute for Everything's Probably Fine or the Center for Just Be Cool, Man.
 - Anthropic is in the middle of an IPO roadshow, and I can't think of a better slide for that deck than "outside experts say our AI is improving twice as fast." (The hosts flagged the timing themselves.)[^1]
@@ -115,13 +115,13 @@ References:
 
 [^7]: The head of Lightcone described the board in [a LessWrong comment](https://www.lesswrong.com/posts/HbkNAyAoa4gCnuzwa/wei-dai-s-shortform?commentId=3hEaTozjsDv9KFYTJ) in November 2025. The campus describes itself at [lighthaven.space](https://lighthaven.space/).
 
-[^8]: He mentions advising the team in a 2023 [80,000 Hours interview](https://80000hours.org/podcast/episodes/holden-karnofsky-how-ai-could-take-over-the-world/). The funder is Open Philanthropy, now called Coefficient Giving. The rest, roommate included, is on [his Wikipedia page](https://en.wikipedia.org/wiki/Holden_Karnofsky).
+[^8]: He mentions advising the team in a 2023 [80,000 Hours interview](https://80000hours.org/podcast/episodes/holden-karnofsky-how-ai-could-take-over-the-world/). The funder is Open Philanthropy, now called Coefficient Giving. The rest, roommate included, is on [his Wikipedia page](https://en.wikipedia.org/wiki/Holden_Karnofsky). Open Philanthropy's own [2017 write-up](https://www.openphilanthropy.org/grants/openai-general-support) of a grant to OpenAI discloses that Amodei and Christiano were living in the same house as Karnofsky.
 
 [^9]: The institute is the Machine Intelligence Research Institute, per [his Wikipedia page](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky). At 122 chapters, [the fan fiction](https://en.wikipedia.org/wiki/Harry_Potter_and_the_Methods_of_Rationality) is longer than *War and Peace* and has more wizards.
 
 [^10]: Eliezer Yudkowsky, ["Pausing AI Developments Isn't Enough. We Need to Shut it All Down,"](https://time.com/6266923/ai-eliezer-yudkowsky-open-letter-not-enough/) *Time*, March 29, 2023.
 
-[^11]: Scientology was founded by a science fiction writer, and this scene's forum by a fan fiction writer. I came up with the comparison first, so that part was a free gift.
+[^11]: Scientology was founded by a science fiction writer, and this scene's forum by a fan fiction writer. The comparison came first, so that part was a free gift.
 
 [^12]: Center for Applied Rationality, [2019 statement](https://rationality.org/resources/updates/2019/cfars-mistakes-regarding-brent).
 

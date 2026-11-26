@@ -13,6 +13,8 @@ My proposal for a [350-star rating system](https://wptk.org/350.html) has a sect
 
 If you haven't read the proposal, the argument is that scales with 3, 5, 10 or 100 points are too coarse, and 350 stars (C3L for short, because 350 is CCCL in Roman numerals) gives you room for real nuance. It's a system meant to provide clarity. The widgets live in the [C3L Translation Lab](https://wptk.org/c3l), where each one takes some other rating system and translates it into 350 stars. Each widget works on its own. They start sensible and get progressively more deranged.
 
+![The top of the C3L Translation Lab page: the title, a warning that the widgets get more deranged as you scroll, and the first widget, The Full 350.](/images/c3l/lab-top.png)
+
 ## What the research says (it says don't)
 
 I designed surveys and ratings back when I was an instructional designer. This is obviously a little different, so I did some research first, and it came back with this:[^1]
@@ -37,19 +39,27 @@ The bottom of the page borrows its spirit from the "worst volume control" challe
 
 The proposal says a bigger scale makes you think harder about your rating, and this is the widget that makes you prove it. Stars accrue at 10 per second while you hold a button, and letting go is your rating. A perfect 350 takes 35 seconds, which is a long time to stand there wondering if the book was really *that* good.
 
+![The Hold to Rate widget mid-hold: a full-width button, a progress bar about two-thirds full, and the text "Holding: 224 stars."](/images/c3l/hold-to-rate.png)
+
 ### Count ’em yourself
 
 This one is 350 unlabeled checkboxes and no counter. They're real checkboxes, all 350 of them, and you find out what you gave when you submit.
 
+![The Count Them Yourself widget: a grid of 350 checkboxes with a scattering checked, a Submit button, and the result "You gave 144 stars. Average."](/images/c3l/count-them-yourself.png)
+
 ### The Averaging Machine
 
 Your rating gets averaged with 4,000 imaginary reviewers who average 244.7 stars, so whatever you enter lands near 245. It's the last widget on the page, and it's what happens to all that clarity once 4,000 other people have had a turn.
+
+![The Averaging Machine after a perfect 350 is entered: "(350 + 4,000 × 244.7) ÷ 4,001 = 244.7."](/images/c3l/averaging-machine.png)
 
 ## My first design was worse
 
 The Lab is static HTML, CSS and vanilla JavaScript on Neocities. The whole thing went from ideas to mockups to a finished page in a day.
 
 My first design had one shared rating that every widget followed, plus section headings. I threw that out for independent widgets, so you get to work out for yourself where the sensible part ends. I also caught a half-star that was drawn wrong, which is a bad look on a page about stars, so it's now a real SVG star cut at its center.
+
+![The Five-Star Translator showing 3.5 stars, with the fourth star filled exactly to its center, and the line "3.5 stars × 70 = 245."](/images/c3l/five-star-translator.png)
 
 Even the deranged widgets are built from real radio buttons, range inputs and checkboxes. The sliders work from the keyboard, and so does the Pacing Swipe, which is otherwise a widget about dragging. If you have reduced motion turned on, a slider that normally creeps along on its own jumps straight to its target.
 
